@@ -12,7 +12,7 @@ FIRST-TIME SETUP
 
     cd /mnt/btrfs/kuningatar/scriptus/
     chmod +x run_scraper.sh scraper.py
-    ./run_scraper.sh https://coomer.st/onlyfans/user/laniafawn --dry-run
+    ./run_scraper.sh link --dry-run
 
 
 ================================================================================
@@ -22,7 +22,7 @@ BASIC USAGE — JUST PASTE ANY URL
     cd /mnt/btrfs/kuningatar/scriptus/
 
     # Known sites
-    ./run_scraper.sh https://coomer.st/onlyfans/user/laniafawn
+    ./run_scraper.sh https://coomer.st/onlyfans/user/
     ./run_scraper.sh https://kemono.su/patreon/user/12345
     ./run_scraper.sh https://nekohouse.su/fanbox/user/67890
 
@@ -36,7 +36,7 @@ BASIC USAGE — JUST PASTE ANY URL
     ./run_scraper.sh https://some-site.com/page --force
 
     # Preview first
-    ./run_scraper.sh https://coomer.st/onlyfans/user/laniafawn --dry-run
+    ./run_scraper.sh https://coomer.st/onlyfans/user/ --dry-run
 
 
 ================================================================================
